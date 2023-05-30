@@ -1,0 +1,2 @@
+C:\Users\PC\source\repos\InventoryApp\obj\Debug\MainClass.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\InventoryApp\obj\Debug\MainClass.csproj.CoreCompileInputs.cache
