@@ -1,6 +1,6 @@
 ﻿namespace InventoryAPP
 {
-    partial class AccountsWindow
+    partial class asdasdsad
     {
         /// <summary>
         /// Required designer variable.
@@ -28,35 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.leftPanel.SuspendLayout();
-            this.SuspendLayout();
-            // 
-            // panel5
-            // 
-            this.panel5.Size = new System.Drawing.Size(1912, 1225);
-            // 
-            // searchTxt
-            // 
-            this.searchTxt.Size = new System.Drawing.Size(372, 31);
-            // 
-            // rightPanel
-            // 
-            this.rightPanel.Size = new System.Drawing.Size(1912, 1374);
-            // 
-            // leftPanel
-            // 
-            this.leftPanel.Size = new System.Drawing.Size(336, 1374);
-            // 
-            // AccountsWindow
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 25F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2248, 1374);
-            this.Name = "AccountsWindow";
-            this.Text = "AccountsWindow";
-            this.leftPanel.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "asdasdsad";
         }
 
         #endregion

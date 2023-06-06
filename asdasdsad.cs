@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InventoryAPP
 {
-    public partial class AccountsWindow : Sample2
+    public partial class asdasdsad : Form
     {
-        public AccountsWindow()
+        public asdasdsad()
         {
             InitializeComponent();
         }

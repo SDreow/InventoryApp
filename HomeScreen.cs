@@ -40,5 +40,17 @@ namespace InventoryAPP
             SuppliersWindow rw = new SuppliersWindow();
             mainClass.openWin(rw, MDI.ActiveForm, this);
         }
+
+        private void typeBtn_Click(object sender, EventArgs e)
+        {
+            AccountsTypeWindow rw = new AccountsTypeWindow();
+            mainClass.openWin(rw, MDI.ActiveForm, this);
+        }
+
+        private void accountBtn_Click(object sender, EventArgs e)
+        {
+            AccountsWindow rw = new AccountsWindow();
+            mainClass.openWin(rw, MDI.ActiveForm, this);
+        }
     }
 }

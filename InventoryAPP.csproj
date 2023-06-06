@@ -122,6 +122,9 @@
     <EmbeddedResource Include="AccountsTypeWindow.resx">
       <DependentUpon>AccountsTypeWindow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AccountsWindow.resx">
+      <DependentUpon>AccountsWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomeScreen.resx">
       <DependentUpon>HomeScreen.cs</DependentUpon>
     </EmbeddedResource>

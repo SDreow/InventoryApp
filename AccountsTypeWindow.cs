@@ -19,7 +19,23 @@ namespace InventoryAPP
         {
             InitializeComponent();
         }
+        private void showData()
+        {
+            try
+            {
+                Hashtable ht = new Hashtable();
+                ListBox lb = new ListBox();
+                lb.Items.Add(accountTypeIDGV);
+                lb.Items.Add(accountNameGV);
+                lb.Items.Add(statusGV);
+                crud.loadData("st_getAccounts", ht,lb,accountTypeGV);
+            }
+            catch (Exception ex)
+            {
 
+              
+            }
+        }
         private void nameTxt_TextChanged(object sender, EventArgs e)
         {
             if (nameTxt.Text == "")
@@ -75,6 +91,7 @@ namespace InventoryAPP
                         mainClass.ShowMSG("Unable to add "+ nameTxt.Text, "error");
                     }
                     mainClass.reset_disable(leftPanel);
+                    showData();
 
                 }
                 else if (edit == 1) //UPDATE
@@ -103,6 +120,7 @@ namespace InventoryAPP
                         mainClass.ShowMSG("Unable to update " + nameTxt.Text, "error");
                     }
                     mainClass.reset_disable(leftPanel);
+                    showData();
                 }
             }
         }
@@ -138,6 +156,7 @@ namespace InventoryAPP
                         mainClass.ShowMSG("Unable to delete " + nameTxt.Text, "error");
                     }
                     mainClass.reset_disable(leftPanel);
+                    showData();
                 }
             }
         }
@@ -145,6 +164,11 @@ namespace InventoryAPP
         public override void searchTxt_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void AccountsTypeWindow_Load(object sender, EventArgs e)
+        {
+            showData();
         }
     }
 }

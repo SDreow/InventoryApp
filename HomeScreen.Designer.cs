@@ -34,8 +34,8 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.accountBtn = new System.Windows.Forms.Button();
+            this.typeBtn = new System.Windows.Forms.Button();
             this.supplierBtn = new System.Windows.Forms.Button();
             this.usersBtn = new System.Windows.Forms.Button();
             this.rolesBtn = new System.Windows.Forms.Button();
@@ -69,8 +69,8 @@
             this.tableLayoutPanel1.Controls.Add(this.button8, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.button7, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.button6, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button5, 4, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button4, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.accountBtn, 4, 0);
+            this.tableLayoutPanel1.Controls.Add(this.typeBtn, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.supplierBtn, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.usersBtn, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.rolesBtn, 0, 0);
@@ -186,45 +186,47 @@
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // accountBtn
             // 
-            this.button5.AutoSize = true;
-            this.button5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen;
-            this.button5.FlatAppearance.BorderSize = 2;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button5.ForeColor = System.Drawing.Color.DarkGreen;
-            this.button5.Location = new System.Drawing.Point(1099, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(269, 257);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button5.UseVisualStyleBackColor = false;
+            this.accountBtn.AutoSize = true;
+            this.accountBtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.accountBtn.BackColor = System.Drawing.Color.White;
+            this.accountBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.accountBtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.accountBtn.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen;
+            this.accountBtn.FlatAppearance.BorderSize = 2;
+            this.accountBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.accountBtn.Font = new System.Drawing.Font("Segoe UI Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.accountBtn.ForeColor = System.Drawing.Color.DarkGreen;
+            this.accountBtn.Location = new System.Drawing.Point(1099, 3);
+            this.accountBtn.Name = "accountBtn";
+            this.accountBtn.Size = new System.Drawing.Size(269, 257);
+            this.accountBtn.TabIndex = 4;
+            this.accountBtn.Text = "ACCOUNTS";
+            this.accountBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.accountBtn.UseVisualStyleBackColor = false;
+            this.accountBtn.Click += new System.EventHandler(this.accountBtn_Click);
             // 
-            // button4
+            // typeBtn
             // 
-            this.button4.AutoSize = true;
-            this.button4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen;
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button4.ForeColor = System.Drawing.Color.DarkGreen;
-            this.button4.Location = new System.Drawing.Point(825, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(268, 257);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button4.UseVisualStyleBackColor = false;
+            this.typeBtn.AutoSize = true;
+            this.typeBtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.typeBtn.BackColor = System.Drawing.Color.White;
+            this.typeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.typeBtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.typeBtn.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen;
+            this.typeBtn.FlatAppearance.BorderSize = 2;
+            this.typeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.typeBtn.Font = new System.Drawing.Font("Segoe UI Light", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.typeBtn.ForeColor = System.Drawing.Color.DarkGreen;
+            this.typeBtn.Location = new System.Drawing.Point(825, 3);
+            this.typeBtn.Name = "typeBtn";
+            this.typeBtn.Size = new System.Drawing.Size(268, 257);
+            this.typeBtn.TabIndex = 3;
+            this.typeBtn.Text = "ACCOUNT TYPES";
+            this.typeBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.typeBtn.UseVisualStyleBackColor = false;
+            this.typeBtn.Click += new System.EventHandler(this.typeBtn_Click);
             // 
             // supplierBtn
             // 
@@ -324,8 +326,8 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button accountBtn;
+        private System.Windows.Forms.Button typeBtn;
         private System.Windows.Forms.Button supplierBtn;
         private System.Windows.Forms.Button usersBtn;
         private System.Windows.Forms.Button rolesBtn;

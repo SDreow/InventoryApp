@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label3 = new System.Windows.Forms.Label();
             this.nameTxt = new System.Windows.Forms.TextBox();
             this.statusDD = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.rolesGV = new System.Windows.Forms.DataGridView();
+            this.accountTypeGV = new System.Windows.Forms.DataGridView();
             this.snoGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.accountTypeIDGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.accountNameGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusGV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel5.SuspendLayout();
             this.leftPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.rolesGV)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountTypeGV)).BeginInit();
             this.SuspendLayout();
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.rolesGV);
+            this.panel5.Controls.Add(this.accountTypeGV);
             this.panel5.Size = new System.Drawing.Size(1654, 1071);
             // 
             // searchTxt
@@ -112,46 +112,46 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Status";
             // 
-            // rolesGV
+            // accountTypeGV
             // 
-            this.rolesGV.AllowUserToAddRows = false;
-            this.rolesGV.AllowUserToDeleteRows = false;
-            this.rolesGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.rolesGV.BackgroundColor = System.Drawing.Color.White;
-            this.rolesGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.rolesGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
-            this.rolesGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.rolesGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.accountTypeGV.AllowUserToAddRows = false;
+            this.accountTypeGV.AllowUserToDeleteRows = false;
+            this.accountTypeGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.accountTypeGV.BackgroundColor = System.Drawing.Color.White;
+            this.accountTypeGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.accountTypeGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.accountTypeGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.accountTypeGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.snoGV,
             this.accountTypeIDGV,
             this.accountNameGV,
             this.statusGV});
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.rolesGV.DefaultCellStyle = dataGridViewCellStyle8;
-            this.rolesGV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rolesGV.Location = new System.Drawing.Point(0, 0);
-            this.rolesGV.MultiSelect = false;
-            this.rolesGV.Name = "rolesGV";
-            this.rolesGV.ReadOnly = true;
-            this.rolesGV.RowHeadersVisible = false;
-            this.rolesGV.RowHeadersWidth = 62;
-            this.rolesGV.RowTemplate.Height = 28;
-            this.rolesGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.rolesGV.Size = new System.Drawing.Size(1654, 1071);
-            this.rolesGV.TabIndex = 1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.accountTypeGV.DefaultCellStyle = dataGridViewCellStyle4;
+            this.accountTypeGV.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.accountTypeGV.Location = new System.Drawing.Point(0, 0);
+            this.accountTypeGV.MultiSelect = false;
+            this.accountTypeGV.Name = "accountTypeGV";
+            this.accountTypeGV.ReadOnly = true;
+            this.accountTypeGV.RowHeadersVisible = false;
+            this.accountTypeGV.RowHeadersWidth = 62;
+            this.accountTypeGV.RowTemplate.Height = 28;
+            this.accountTypeGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.accountTypeGV.Size = new System.Drawing.Size(1654, 1071);
+            this.accountTypeGV.TabIndex = 1;
             // 
             // snoGV
             // 
@@ -191,10 +191,11 @@
             this.ClientSize = new System.Drawing.Size(1990, 1220);
             this.Name = "AccountsTypeWindow";
             this.Text = "Account Types";
+            this.Load += new System.EventHandler(this.AccountsTypeWindow_Load);
             this.panel5.ResumeLayout(false);
             this.leftPanel.ResumeLayout(false);
             this.leftPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.rolesGV)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountTypeGV)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -205,7 +206,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox statusDD;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DataGridView rolesGV;
+        private System.Windows.Forms.DataGridView accountTypeGV;
         private System.Windows.Forms.DataGridViewTextBoxColumn snoGV;
         private System.Windows.Forms.DataGridViewTextBoxColumn accountTypeIDGV;
         private System.Windows.Forms.DataGridViewTextBoxColumn accountNameGV;
